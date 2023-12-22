@@ -3,13 +3,67 @@ body {
   font-weight: 500;
 }
 
-a {
-  color: orange;
-}
-a:hover {
-  color: black;
+.imgbox img {
+  width: 100%;
 }
 
-#got h1 {
-  color: #c80000;
+.menu {
+  height: 80px;
+  background-color: #000;
+}
+.menu .imgbox {
+  width: 150px;
+  cursor: pointer;
+}
+.menu nav a {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 18px;
+  margin: 10px;
+  letter-spacing: 2px;
+  transition: 0.5s;
+}
+.menu nav a:hover {
+  color: #ffc800;
+}
+
+#welcome {
+  background-image: url(../assets/header-bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#welcome .textbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 800px;
+}
+#welcome .textbox h1 {
+  font-weight: 700;
+  font-size: 72px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #fcfcfc;
+  margin: 20px 0 0;
+}
+#welcome .textbox h3 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #fffdfd;
+  font-style: italic;
+}
+#welcome .textbox .btn {
+  background-color: #ffc800;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  width: 235px;
+  height: 70px;
+  padding: 20px;
+  margin: 50px 0 0;
+}
+#welcome .textbox .btn:hover {
+  background-color: #cca000;
 }/*# sourceMappingURL=style.css.map */
